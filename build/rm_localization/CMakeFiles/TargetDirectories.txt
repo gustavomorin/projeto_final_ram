@@ -1,0 +1,9 @@
+/root/Projeto_Final/build/rm_localization/CMakeFiles/install/strip.dir
+/root/Projeto_Final/build/rm_localization/CMakeFiles/install/local.dir
+/root/Projeto_Final/build/rm_localization/CMakeFiles/install.dir
+/root/Projeto_Final/build/rm_localization/CMakeFiles/list_install_components.dir
+/root/Projeto_Final/build/rm_localization/CMakeFiles/rebuild_cache.dir
+/root/Projeto_Final/build/rm_localization/CMakeFiles/edit_cache.dir
+/root/Projeto_Final/build/rm_localization/CMakeFiles/test.dir
+/root/Projeto_Final/build/rm_localization/CMakeFiles/rm_localization_uninstall.dir
+/root/Projeto_Final/build/rm_localization/CMakeFiles/uninstall.dir

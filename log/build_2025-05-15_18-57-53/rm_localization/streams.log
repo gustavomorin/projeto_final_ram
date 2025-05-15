@@ -1,0 +1,57 @@
+[0.033s] Invoking command in '/root/Projeto_Final/build/rm_localization': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/Projeto_Final/src/rm_localization -DCMAKE_INSTALL_PREFIX=/root/Projeto_Final/install/rm_localization
+[0.366s] -- The C compiler identification is GNU 9.4.0
+[0.622s] -- The CXX compiler identification is GNU 9.4.0
+[0.680s] -- Check for working C compiler: /usr/bin/cc
+[0.792s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.794s] -- Detecting C compiler ABI info
+[0.899s] -- Detecting C compiler ABI info - done
+[0.911s] -- Detecting C compile features
+[0.911s] -- Detecting C compile features - done
+[0.915s] -- Check for working CXX compiler: /usr/bin/c++
+[1.022s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.023s] -- Detecting CXX compiler ABI info
+[1.118s] -- Detecting CXX compiler ABI info - done
+[1.133s] -- Detecting CXX compile features
+[1.134s] -- Detecting CXX compile features - done
+[1.157s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.184s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.184s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.364s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.472s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.475s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.476s] -- Added test 'lint_cmake' to check CMake code style
+[1.477s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.479s] -- Added test 'xmllint' to check XML markup files
+[1.482s] -- Configuring done
+[1.486s] -- Generating done
+[1.488s] -- Build files have been written to: /root/Projeto_Final/build/rm_localization
+[1.493s] Invoked command in '/root/Projeto_Final/build/rm_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/Projeto_Final/src/rm_localization -DCMAKE_INSTALL_PREFIX=/root/Projeto_Final/install/rm_localization
+[1.496s] Invoking command in '/root/Projeto_Final/build/rm_localization': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/Projeto_Final/build/rm_localization -- -j16 -l16
+[1.530s] Invoked command in '/root/Projeto_Final/build/rm_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/Projeto_Final/build/rm_localization -- -j16 -l16
+[1.542s] Invoking command in '/root/Projeto_Final/build/rm_localization': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/Projeto_Final/build/rm_localization
+[1.547s] -- Install configuration: ""
+[1.547s] -- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization//map
+[1.548s] -- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization//map/meu_mapa.yaml
+[1.548s] -- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization//map/meu_mapa.pgm
+[1.548s] -- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization//launch
+[1.548s] -- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization//launch/amcl.launch.py
+[1.548s] -- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization//launch/ekf.launch.py
+[1.548s] -- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization//config
+[1.548s] -- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization//config/amcl_params.yaml
+[1.549s] -- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization//config/ekf_config.yaml
+[1.549s] -- Installing: /root/Projeto_Final/install/rm_localization/share/ament_index/resource_index/package_run_dependencies/rm_localization
+[1.549s] -- Installing: /root/Projeto_Final/install/rm_localization/share/ament_index/resource_index/parent_prefix_path/rm_localization
+[1.549s] -- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/environment/ament_prefix_path.sh
+[1.550s] -- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/environment/ament_prefix_path.dsv
+[1.550s] -- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/environment/path.sh
+[1.550s] -- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/environment/path.dsv
+[1.550s] -- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/local_setup.bash
+[1.550s] -- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/local_setup.sh
+[1.551s] -- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/local_setup.zsh
+[1.551s] -- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/local_setup.dsv
+[1.551s] -- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/package.dsv
+[1.551s] -- Installing: /root/Projeto_Final/install/rm_localization/share/ament_index/resource_index/packages/rm_localization
+[1.551s] -- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/cmake/rm_localizationConfig.cmake
+[1.551s] -- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/cmake/rm_localizationConfig-version.cmake
+[1.551s] -- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/package.xml
+[1.553s] Invoked command in '/root/Projeto_Final/build/rm_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/Projeto_Final/build/rm_localization

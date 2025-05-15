@@ -1,0 +1,155 @@
+[0.200s] Invoking command in '/root/Projeto_Final/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/Projeto_Final/src/robot_description -DCMAKE_INSTALL_PREFIX=/root/Projeto_Final/install/robot_description
+[0.365s] -- The C compiler identification is GNU 9.4.0
+[0.602s] -- The CXX compiler identification is GNU 9.4.0
+[0.660s] -- Check for working C compiler: /usr/bin/cc
+[0.772s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.774s] -- Detecting C compiler ABI info
+[0.880s] -- Detecting C compiler ABI info - done
+[0.891s] -- Detecting C compile features
+[0.891s] -- Detecting C compile features - done
+[0.895s] -- Check for working CXX compiler: /usr/bin/c++
+[1.003s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.004s] -- Detecting CXX compiler ABI info
+[1.098s] -- Detecting CXX compiler ABI info - done
+[1.109s] -- Detecting CXX compile features
+[1.110s] -- Detecting CXX compile features - done
+[1.137s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.165s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.165s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.346s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[2.095s] -- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+[2.098s] -- Found gazebo_ros_pkgs: 3.5.3 (/opt/ros/foxy/share/gazebo_ros_pkgs/cmake)
+[2.100s] -- Found gazebo_plugins: 3.5.3 (/opt/ros/foxy/share/gazebo_plugins/cmake)
+[2.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.191s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.886s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.481s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.575s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.636s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.639s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[4.641s] -- Looking for pthread.h
+[4.746s] -- Looking for pthread.h - found
+[4.746s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.839s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.840s] -- Looking for pthread_create in pthreads
+[4.923s] -- Looking for pthread_create in pthreads - not found
+[4.923s] -- Looking for pthread_create in pthread
+[5.013s] -- Looking for pthread_create in pthread - found
+[5.014s] -- Found Threads: TRUE  
+[5.164s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[5.165s] -- Checking for module 'bullet>=2.82'
+[5.175s] --   Found bullet, version 2.88
+[5.924s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[5.991s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[6.081s] -- Found assimp: /usr/include (found version "5.0.0") 
+[6.136s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[6.163s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[6.402s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[6.409s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.421s] -- Searching for dependencies of ignition-math6
+[6.425s] -- Looking for OGRE...
+[6.425s] -- OGRE_PREFIX_WATCH changed.
+[6.430s] -- Checking for module 'OGRE'
+[6.443s] --   Found OGRE, version 1.9.0
+[6.518s] -- Found Ogre Ghadamon (1.9.0)
+[6.924s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[6.932s] -- Looking for OGRE_Paging...
+[7.153s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[7.154s] -- Looking for OGRE_Terrain...
+[7.364s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[7.364s] -- Looking for OGRE_Property...
+[7.583s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[7.583s] -- Looking for OGRE_RTShaderSystem...
+[7.785s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[7.785s] -- Looking for OGRE_Volume...
+[7.978s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[7.978s] -- Looking for OGRE_Overlay...
+[8.178s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[18.815s] -- Looking for ignition-math6 -- found version 6.15.1
+[18.819s] -- Looking for ignition-transport8 -- found version 8.5.1
+[18.819s] -- Searching for dependencies of ignition-transport8
+[19.858s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[19.862s] -- Checking for module 'libzmq >= 4'
+[19.878s] --   Found libzmq , version 4.3.2
+[19.947s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[19.974s] -- Checking for module 'uuid'
+[19.984s] --   Found uuid, version 2.34.0
+[20.047s] -- Found UUID: TRUE  
+[20.049s] -- Looking for ignition-msgs5 -- found version 5.11.1
+[20.050s] -- Searching for dependencies of ignition-msgs5
+[20.559s] -- Looking for ignition-math6 -- found version 6.15.1
+[20.567s] -- Checking for module 'tinyxml2'
+[20.578s] --   Found tinyxml2, version 6.2.0
+[20.648s] -- Looking for ignition-msgs5 -- found version 5.11.1
+[20.651s] -- Looking for ignition-common3 -- found version 3.17.1
+[20.652s] -- Searching for dependencies of ignition-common3
+[20.675s] -- Looking for dlfcn.h - found
+[20.695s] -- Looking for libdl - found
+[20.696s] -- Found DL: TRUE  
+[20.743s] -- Searching for <ignition-common3> component [graphics]
+[20.745s] -- Looking for ignition-common3-graphics -- found version 3.17.1
+[20.745s] -- Searching for dependencies of ignition-common3-graphics
+[20.746s] -- Looking for ignition-math6 -- found version 6.15.1
+[20.749s] -- Looking for ignition-fuel_tools4 -- found version 4.9.2
+[20.750s] -- Searching for dependencies of ignition-fuel_tools4
+[20.923s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[20.931s] -- Checking for module 'jsoncpp'
+[20.941s] --   Found jsoncpp, version 1.7.4
+[21.006s] -- Found JSONCPP: TRUE  
+[21.011s] -- Checking for module 'libzip'
+[21.022s] --   Found libzip, version 1.5.1
+[21.088s] -- Found ZIP: TRUE  
+[21.089s] -- Looking for ignition-common3 -- found version 3.17.1
+[21.089s] -- Looking for ignition-math6 -- found version 6.15.1
+[21.089s] -- Looking for ignition-msgs5 -- found version 5.11.1
+[21.091s] -- Gazebo version: 11.15
+[21.337s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[21.392s] -- Added test 'copyright' to check source files copyright and LICENSE
+[21.394s] -- Added test 'flake8' to check Python code syntax and style conventions
+[21.394s] -- Added test 'lint_cmake' to check CMake code style
+[21.395s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[21.396s] -- Added test 'xmllint' to check XML markup files
+[21.399s] -- Configuring done
+[21.402s] -- Generating done
+[21.404s] -- Build files have been written to: /root/Projeto_Final/build/robot_description
+[21.417s] Invoked command in '/root/Projeto_Final/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/Projeto_Final/src/robot_description -DCMAKE_INSTALL_PREFIX=/root/Projeto_Final/install/robot_description
+[21.418s] Invoking command in '/root/Projeto_Final/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/Projeto_Final/build/robot_description -- -j16 -l16
+[21.447s] Invoked command in '/root/Projeto_Final/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/Projeto_Final/build/robot_description -- -j16 -l16
+[21.450s] Invoking command in '/root/Projeto_Final/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/Projeto_Final/build/robot_description
+[21.455s] -- Install configuration: ""
+[21.455s] -- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//urdf
+[21.456s] -- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//urdf/caster.xacro
+[21.456s] -- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//urdf/wheels.xacro
+[21.456s] -- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//urdf/differential_robot.xacro
+[21.456s] -- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//urdf/robot_base.xacro
+[21.456s] -- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//urdf/sensors.xacro
+[21.456s] -- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//launch
+[21.457s] -- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//launch/robot_simulation.py
+[21.457s] -- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//launch/navigate.launch.py
+[21.457s] -- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//launch/gazebo.launch.py
+[21.457s] -- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//launch/robot_description.launch.py
+[21.457s] -- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//launch/launch_file.launch.py
+[21.457s] -- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//rviz
+[21.457s] -- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//rviz/robot_vis.rviz
+[21.457s] -- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//world
+[21.457s] -- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//world/world.world
+[21.458s] -- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//world/house
+[21.458s] -- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//world/house/model.sdf
+[21.458s] -- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//world/house/model.config
+[21.458s] -- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//world/mundogustavo.world
+[21.459s] -- Installing: /root/Projeto_Final/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[21.459s] -- Installing: /root/Projeto_Final/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[21.459s] -- Installing: /root/Projeto_Final/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[21.459s] -- Installing: /root/Projeto_Final/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[21.459s] -- Installing: /root/Projeto_Final/install/robot_description/share/robot_description/environment/path.sh
+[21.460s] -- Installing: /root/Projeto_Final/install/robot_description/share/robot_description/environment/path.dsv
+[21.461s] -- Installing: /root/Projeto_Final/install/robot_description/share/robot_description/local_setup.bash
+[21.461s] -- Installing: /root/Projeto_Final/install/robot_description/share/robot_description/local_setup.sh
+[21.461s] -- Installing: /root/Projeto_Final/install/robot_description/share/robot_description/local_setup.zsh
+[21.461s] -- Installing: /root/Projeto_Final/install/robot_description/share/robot_description/local_setup.dsv
+[21.461s] -- Installing: /root/Projeto_Final/install/robot_description/share/robot_description/package.dsv
+[21.461s] -- Installing: /root/Projeto_Final/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[21.461s] -- Installing: /root/Projeto_Final/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[21.461s] -- Installing: /root/Projeto_Final/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[21.462s] -- Installing: /root/Projeto_Final/install/robot_description/share/robot_description/package.xml
+[21.463s] Invoked command in '/root/Projeto_Final/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/Projeto_Final/build/robot_description

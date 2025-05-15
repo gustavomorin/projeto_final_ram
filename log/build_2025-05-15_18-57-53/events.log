@@ -1,0 +1,476 @@
+[0.000000] (-) TimerEvent: {}
+[0.000230] (rm_localization) JobQueued: {'identifier': 'rm_localization', 'dependencies': OrderedDict()}
+[0.000274] (rm_navigation) JobQueued: {'identifier': 'rm_navigation', 'dependencies': OrderedDict()}
+[0.000288] (robot_description) JobQueued: {'identifier': 'robot_description', 'dependencies': OrderedDict()}
+[0.000636] (rm_localization) JobStarted: {'identifier': 'rm_localization'}
+[0.012484] (rm_navigation) JobStarted: {'identifier': 'rm_navigation'}
+[0.020233] (robot_description) JobStarted: {'identifier': 'robot_description'}
+[0.029683] (rm_localization) JobProgress: {'identifier': 'rm_localization', 'progress': 'cmake'}
+[0.032292] (rm_localization) Command: {'cmd': ['/usr/bin/cmake', '/root/Projeto_Final/src/rm_localization', '-DCMAKE_INSTALL_PREFIX=/root/Projeto_Final/install/rm_localization'], 'cwd': '/root/Projeto_Final/build/rm_localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('GIT_ASKPASS', '/root/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/root'), ('OLDPWD', '/root'), ('TERM_PROGRAM_VERSION', '1.100.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-bb9f8f9b-cef7-4faf-b041-7aa72490dbce.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('NAME', 'GustavoMorin'), ('WSL_INTEROP', '/run/WSL/986_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/foxy/share/turtlebot3_gazebo/models:/opt/ros/foxy/share/turtlebot3_gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Siemens/NX2212/CAPITALINTEGRATION/capitalnxremote/:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/Siemens/NX2312/CAPITALINTEGRATION/capitalnxremote/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/CODESYS/APInstaller/:/mnt/c/Users/gusta/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/gusta/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/gusta/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/gusta/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/gusta/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-89b1d7be49.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/Projeto_Final/build/rm_localization'), ('TURTLEBOT3_MODEL', 'burguer'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099555] (-) TimerEvent: {}
+[0.200079] (-) TimerEvent: {}
+[0.213312] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'cmake'}
+[0.218137] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '/root/Projeto_Final/src/robot_description', '-DCMAKE_INSTALL_PREFIX=/root/Projeto_Final/install/robot_description'], 'cwd': '/root/Projeto_Final/build/robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('GIT_ASKPASS', '/root/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/root'), ('OLDPWD', '/root'), ('TERM_PROGRAM_VERSION', '1.100.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-bb9f8f9b-cef7-4faf-b041-7aa72490dbce.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('NAME', 'GustavoMorin'), ('WSL_INTEROP', '/run/WSL/986_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/foxy/share/turtlebot3_gazebo/models:/opt/ros/foxy/share/turtlebot3_gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Siemens/NX2212/CAPITALINTEGRATION/capitalnxremote/:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/Siemens/NX2312/CAPITALINTEGRATION/capitalnxremote/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/CODESYS/APInstaller/:/mnt/c/Users/gusta/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/gusta/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/gusta/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/gusta/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/gusta/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-89b1d7be49.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/Projeto_Final/build/robot_description'), ('TURTLEBOT3_MODEL', 'burguer'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.300321] (-) TimerEvent: {}
+[0.366555] (rm_localization) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.385547] (robot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.400441] (-) TimerEvent: {}
+[0.500790] (-) TimerEvent: {}
+[0.601180] (-) TimerEvent: {}
+[0.621977] (robot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.622874] (rm_localization) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.672584] (rm_navigation) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/rm_navigation', 'build', '--build-base', '/root/Projeto_Final/build/rm_navigation/build', 'install', '--record', '/root/Projeto_Final/build/rm_navigation/install.log', '--install-scripts', '$base/lib/rm_navigation', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/Projeto_Final/src/rm_navigation', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'root', 'GIT_ASKPASS': '/root/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/root', 'OLDPWD': '/root', 'TERM_PROGRAM_VERSION': '1.100.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/0/vscode-ipc-bb9f8f9b-cef7-4faf-b041-7aa72490dbce.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'root', 'NAME': 'GustavoMorin', 'WSL_INTEROP': '/run/WSL/986_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/opt/ros/foxy/share/turtlebot3_gazebo/models:/opt/ros/foxy/share/turtlebot3_gazebo/models', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/root/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Siemens/NX2212/CAPITALINTEGRATION/capitalnxremote/:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/Siemens/NX2312/CAPITALINTEGRATION/capitalnxremote/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/CODESYS/APInstaller/:/mnt/c/Users/gusta/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/gusta/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/gusta/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/gusta/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/gusta/AppData/Roaming/npm:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/0/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/0/vscode-git-89b1d7be49.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/root/Projeto_Final/build/rm_navigation', 'TURTLEBOT3_MODEL': 'burguer', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/root/Projeto_Final/build/rm_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/Projeto_Final/install/rm_navigation/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up'}, 'shell': False}
+[0.680458] (rm_localization) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.680598] (robot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.701381] (-) TimerEvent: {}
+[0.792073] (rm_localization) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.792334] (robot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.794115] (rm_localization) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.794252] (robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.801513] (-) TimerEvent: {}
+[0.854760] (rm_navigation) StdoutLine: {'line': b'running egg_info\n'}
+[0.855185] (rm_navigation) StdoutLine: {'line': b'creating ../../build/rm_navigation/rm_navigation.egg-info\n'}
+[0.856053] (rm_navigation) StdoutLine: {'line': b'writing ../../build/rm_navigation/rm_navigation.egg-info/PKG-INFO\n'}
+[0.856954] (rm_navigation) StdoutLine: {'line': b'writing dependency_links to ../../build/rm_navigation/rm_navigation.egg-info/dependency_links.txt\n'}
+[0.857162] (rm_navigation) StdoutLine: {'line': b'writing entry points to ../../build/rm_navigation/rm_navigation.egg-info/entry_points.txt\n'}
+[0.857359] (rm_navigation) StdoutLine: {'line': b'writing requirements to ../../build/rm_navigation/rm_navigation.egg-info/requires.txt\n'}
+[0.857736] (rm_navigation) StdoutLine: {'line': b'writing top-level names to ../../build/rm_navigation/rm_navigation.egg-info/top_level.txt\n'}
+[0.861809] (rm_navigation) StdoutLine: {'line': b"writing manifest file '../../build/rm_navigation/rm_navigation.egg-info/SOURCES.txt'\n"}
+[0.890144] (rm_navigation) StdoutLine: {'line': b"reading manifest file '../../build/rm_navigation/rm_navigation.egg-info/SOURCES.txt'\n"}
+[0.890675] (rm_navigation) StdoutLine: {'line': b"writing manifest file '../../build/rm_navigation/rm_navigation.egg-info/SOURCES.txt'\n"}
+[0.890920] (rm_navigation) StdoutLine: {'line': b'running build\n'}
+[0.890983] (rm_navigation) StdoutLine: {'line': b'running build_py\n'}
+[0.891093] (rm_navigation) StdoutLine: {'line': b'creating /root/Projeto_Final/build/rm_navigation/build\n'}
+[0.891314] (rm_navigation) StdoutLine: {'line': b'creating /root/Projeto_Final/build/rm_navigation/build/lib\n'}
+[0.892147] (rm_navigation) StdoutLine: {'line': b'creating /root/Projeto_Final/build/rm_navigation/build/lib/rm_navigation\n'}
+[0.892441] (rm_navigation) StdoutLine: {'line': b'copying rm_navigation/__init__.py -> /root/Projeto_Final/build/rm_navigation/build/lib/rm_navigation\n'}
+[0.892718] (rm_navigation) StdoutLine: {'line': b'running install\n'}
+[0.893655] (rm_navigation) StdoutLine: {'line': b'running install_lib\n'}
+[0.894501] (rm_navigation) StdoutLine: {'line': b'creating /root/Projeto_Final/install/rm_navigation/lib/python3.8/site-packages/rm_navigation\n'}
+[0.894917] (rm_navigation) StdoutLine: {'line': b'copying /root/Projeto_Final/build/rm_navigation/build/lib/rm_navigation/__init__.py -> /root/Projeto_Final/install/rm_navigation/lib/python3.8/site-packages/rm_navigation\n'}
+[0.895433] (rm_navigation) StdoutLine: {'line': b'byte-compiling /root/Projeto_Final/install/rm_navigation/lib/python3.8/site-packages/rm_navigation/__init__.py to __init__.cpython-38.pyc\n'}
+[0.897046] (rm_navigation) StdoutLine: {'line': b'running install_data\n'}
+[0.897372] (rm_navigation) StdoutLine: {'line': b'creating /root/Projeto_Final/install/rm_navigation/share/ament_index\n'}
+[0.897474] (rm_navigation) StdoutLine: {'line': b'creating /root/Projeto_Final/install/rm_navigation/share/ament_index/resource_index\n'}
+[0.897947] (rm_navigation) StdoutLine: {'line': b'creating /root/Projeto_Final/install/rm_navigation/share/ament_index/resource_index/packages\n'}
+[0.898411] (rm_navigation) StdoutLine: {'line': b'copying resource/rm_navigation -> /root/Projeto_Final/install/rm_navigation/share/ament_index/resource_index/packages\n'}
+[0.898620] (rm_navigation) StdoutLine: {'line': b'copying package.xml -> /root/Projeto_Final/install/rm_navigation/share/rm_navigation\n'}
+[0.898722] (rm_navigation) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.899864] (rm_localization) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.899970] (robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.900374] (rm_navigation) StdoutLine: {'line': b'Copying ../../build/rm_navigation/rm_navigation.egg-info to /root/Projeto_Final/install/rm_navigation/lib/python3.8/site-packages/rm_navigation-0.0.0-py3.8.egg-info\n'}
+[0.901403] (rm_navigation) StdoutLine: {'line': b'running install_scripts\n'}
+[0.901504] (-) TimerEvent: {}
+[0.911011] (robot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.911190] (rm_localization) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.911459] (rm_localization) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.911581] (robot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.915234] (rm_localization) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.915433] (robot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.917270] (rm_navigation) StdoutLine: {'line': b"writing list of installed files to '/root/Projeto_Final/build/rm_navigation/install.log'\n"}
+[0.941330] (rm_navigation) CommandEnded: {'returncode': 0}
+[0.963606] (rm_navigation) JobEnded: {'identifier': 'rm_navigation', 'rc': 0}
+[1.001690] (-) TimerEvent: {}
+[1.022459] (rm_localization) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.023286] (robot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.023399] (rm_localization) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.024355] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.101848] (-) TimerEvent: {}
+[1.117891] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.118886] (rm_localization) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.129580] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.130167] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.133607] (rm_localization) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.134160] (rm_localization) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.157096] (robot_description) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.157309] (rm_localization) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.184923] (rm_localization) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.185118] (rm_localization) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.185180] (robot_description) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.185230] (robot_description) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.202037] (-) TimerEvent: {}
+[1.302417] (-) TimerEvent: {}
+[1.364407] (rm_localization) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.366360] (robot_description) StdoutLine: {'line': b'-- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)\n'}
+[1.402706] (-) TimerEvent: {}
+[1.472144] (rm_localization) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.475348] (rm_localization) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.476299] (rm_localization) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.477279] (rm_localization) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.479411] (rm_localization) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.482412] (rm_localization) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.486116] (rm_localization) StdoutLine: {'line': b'-- Generating done\n'}
+[1.488312] (rm_localization) StdoutLine: {'line': b'-- Build files have been written to: /root/Projeto_Final/build/rm_localization\n'}
+[1.492935] (rm_localization) CommandEnded: {'returncode': 0}
+[1.494242] (rm_localization) JobProgress: {'identifier': 'rm_localization', 'progress': 'build'}
+[1.496660] (rm_localization) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/Projeto_Final/build/rm_localization', '--', '-j16', '-l16'], 'cwd': '/root/Projeto_Final/build/rm_localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('GIT_ASKPASS', '/root/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/root'), ('OLDPWD', '/root'), ('TERM_PROGRAM_VERSION', '1.100.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-bb9f8f9b-cef7-4faf-b041-7aa72490dbce.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('NAME', 'GustavoMorin'), ('WSL_INTEROP', '/run/WSL/986_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/foxy/share/turtlebot3_gazebo/models:/opt/ros/foxy/share/turtlebot3_gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Siemens/NX2212/CAPITALINTEGRATION/capitalnxremote/:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/Siemens/NX2312/CAPITALINTEGRATION/capitalnxremote/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/CODESYS/APInstaller/:/mnt/c/Users/gusta/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/gusta/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/gusta/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/gusta/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/gusta/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-89b1d7be49.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/Projeto_Final/build/rm_localization'), ('TURTLEBOT3_MODEL', 'burguer'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.502825] (-) TimerEvent: {}
+[1.530723] (rm_localization) CommandEnded: {'returncode': 0}
+[1.533064] (rm_localization) JobProgress: {'identifier': 'rm_localization', 'progress': 'install'}
+[1.541896] (rm_localization) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/Projeto_Final/build/rm_localization'], 'cwd': '/root/Projeto_Final/build/rm_localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('GIT_ASKPASS', '/root/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/root'), ('OLDPWD', '/root'), ('TERM_PROGRAM_VERSION', '1.100.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-bb9f8f9b-cef7-4faf-b041-7aa72490dbce.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('NAME', 'GustavoMorin'), ('WSL_INTEROP', '/run/WSL/986_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/foxy/share/turtlebot3_gazebo/models:/opt/ros/foxy/share/turtlebot3_gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Siemens/NX2212/CAPITALINTEGRATION/capitalnxremote/:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/Siemens/NX2312/CAPITALINTEGRATION/capitalnxremote/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/CODESYS/APInstaller/:/mnt/c/Users/gusta/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/gusta/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/gusta/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/gusta/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/gusta/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-89b1d7be49.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/Projeto_Final/build/rm_localization'), ('TURTLEBOT3_MODEL', 'burguer'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.547829] (rm_localization) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.547969] (rm_localization) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization//map\n'}
+[1.548273] (rm_localization) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization//map/meu_mapa.yaml\n'}
+[1.548428] (rm_localization) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization//map/meu_mapa.pgm\n'}
+[1.548541] (rm_localization) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization//launch\n'}
+[1.548680] (rm_localization) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization//launch/amcl.launch.py\n'}
+[1.548779] (rm_localization) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization//launch/ekf.launch.py\n'}
+[1.548890] (rm_localization) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization//config\n'}
+[1.549087] (rm_localization) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization//config/amcl_params.yaml\n'}
+[1.549212] (rm_localization) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization//config/ekf_config.yaml\n'}
+[1.549512] (rm_localization) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/rm_localization/share/ament_index/resource_index/package_run_dependencies/rm_localization\n'}
+[1.549802] (rm_localization) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/rm_localization/share/ament_index/resource_index/parent_prefix_path/rm_localization\n'}
+[1.549999] (rm_localization) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/environment/ament_prefix_path.sh\n'}
+[1.550206] (rm_localization) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/environment/ament_prefix_path.dsv\n'}
+[1.550411] (rm_localization) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/environment/path.sh\n'}
+[1.550544] (rm_localization) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/environment/path.dsv\n'}
+[1.550781] (rm_localization) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/local_setup.bash\n'}
+[1.550904] (rm_localization) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/local_setup.sh\n'}
+[1.551025] (rm_localization) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/local_setup.zsh\n'}
+[1.551226] (rm_localization) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/local_setup.dsv\n'}
+[1.551286] (rm_localization) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/package.dsv\n'}
+[1.551328] (rm_localization) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/rm_localization/share/ament_index/resource_index/packages/rm_localization\n'}
+[1.551443] (rm_localization) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/cmake/rm_localizationConfig.cmake\n'}
+[1.551660] (rm_localization) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/cmake/rm_localizationConfig-version.cmake\n'}
+[1.551733] (rm_localization) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/package.xml\n'}
+[1.553334] (rm_localization) CommandEnded: {'returncode': 0}
+[1.563908] (rm_localization) JobEnded: {'identifier': 'rm_localization', 'rc': 0}
+[1.602983] (-) TimerEvent: {}
+[1.703354] (-) TimerEvent: {}
+[1.803717] (-) TimerEvent: {}
+[1.904197] (-) TimerEvent: {}
+[2.004567] (-) TimerEvent: {}
+[2.104980] (-) TimerEvent: {}
+[2.115482] (robot_description) StdoutLine: {'line': b'-- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)\n'}
+[2.118062] (robot_description) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.5.3 (/opt/ros/foxy/share/gazebo_ros_pkgs/cmake)\n'}
+[2.119959] (robot_description) StdoutLine: {'line': b'-- Found gazebo_plugins: 3.5.3 (/opt/ros/foxy/share/gazebo_plugins/cmake)\n'}
+[2.201990] (robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.205112] (-) TimerEvent: {}
+[2.211399] (robot_description) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.305263] (-) TimerEvent: {}
+[2.405674] (-) TimerEvent: {}
+[2.506130] (-) TimerEvent: {}
+[2.606513] (-) TimerEvent: {}
+[2.706857] (-) TimerEvent: {}
+[2.807236] (-) TimerEvent: {}
+[2.906553] (robot_description) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.907328] (-) TimerEvent: {}
+[3.007586] (-) TimerEvent: {}
+[3.107980] (-) TimerEvent: {}
+[3.208329] (-) TimerEvent: {}
+[3.308663] (-) TimerEvent: {}
+[3.409017] (-) TimerEvent: {}
+[3.500857] (robot_description) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.509149] (-) TimerEvent: {}
+[3.609500] (-) TimerEvent: {}
+[3.709865] (-) TimerEvent: {}
+[3.810223] (-) TimerEvent: {}
+[3.910603] (-) TimerEvent: {}
+[4.010976] (-) TimerEvent: {}
+[4.111301] (-) TimerEvent: {}
+[4.211664] (-) TimerEvent: {}
+[4.312050] (-) TimerEvent: {}
+[4.412431] (-) TimerEvent: {}
+[4.512872] (-) TimerEvent: {}
+[4.595158] (robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.613031] (-) TimerEvent: {}
+[4.656182] (robot_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[4.659117] (robot_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[4.661158] (robot_description) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.713281] (-) TimerEvent: {}
+[4.765891] (robot_description) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.766290] (robot_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.813486] (-) TimerEvent: {}
+[4.859578] (robot_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[4.859783] (robot_description) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[4.913662] (-) TimerEvent: {}
+[4.943391] (robot_description) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[4.943716] (robot_description) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[5.013790] (-) TimerEvent: {}
+[5.033574] (robot_description) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[5.034615] (robot_description) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.114076] (-) TimerEvent: {}
+[5.183910] (robot_description) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[5.185282] (robot_description) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[5.194967] (robot_description) StdoutLine: {'line': b'--   Found bullet, version 2.88\n'}
+[5.214197] (-) TimerEvent: {}
+[5.314500] (-) TimerEvent: {}
+[5.415001] (-) TimerEvent: {}
+[5.515393] (-) TimerEvent: {}
+[5.615805] (-) TimerEvent: {}
+[5.716245] (-) TimerEvent: {}
+[5.816598] (-) TimerEvent: {}
+[5.916948] (-) TimerEvent: {}
+[5.944229] (robot_description) StdoutLine: {'line': b'-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") \n'}
+[6.010728] (robot_description) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") \n'}
+[6.017141] (-) TimerEvent: {}
+[6.100915] (robot_description) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.0.0") \n'}
+[6.117307] (-) TimerEvent: {}
+[6.156367] (robot_description) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[6.183274] (robot_description) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[6.217445] (-) TimerEvent: {}
+[6.317780] (-) TimerEvent: {}
+[6.418172] (-) TimerEvent: {}
+[6.422313] (robot_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[6.429401] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[6.441345] (robot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[6.445296] (robot_description) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[6.445657] (robot_description) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[6.450663] (robot_description) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[6.463465] (robot_description) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[6.518320] (-) TimerEvent: {}
+[6.537972] (robot_description) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[6.618440] (-) TimerEvent: {}
+[6.718804] (-) TimerEvent: {}
+[6.819210] (-) TimerEvent: {}
+[6.919672] (-) TimerEvent: {}
+[6.944389] (robot_description) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[6.952285] (robot_description) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[7.019850] (-) TimerEvent: {}
+[7.120340] (-) TimerEvent: {}
+[7.173596] (robot_description) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[7.173832] (robot_description) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[7.220454] (-) TimerEvent: {}
+[7.320770] (-) TimerEvent: {}
+[7.384324] (robot_description) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[7.384555] (robot_description) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[7.420938] (-) TimerEvent: {}
+[7.521411] (-) TimerEvent: {}
+[7.602795] (robot_description) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[7.602982] (robot_description) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[7.621504] (-) TimerEvent: {}
+[7.721792] (-) TimerEvent: {}
+[7.805107] (robot_description) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[7.805303] (robot_description) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[7.821919] (-) TimerEvent: {}
+[7.922222] (-) TimerEvent: {}
+[7.998064] (robot_description) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[7.998250] (robot_description) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[8.022331] (-) TimerEvent: {}
+[8.122714] (-) TimerEvent: {}
+[8.197808] (robot_description) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[8.222811] (-) TimerEvent: {}
+[8.323214] (-) TimerEvent: {}
+[8.423697] (-) TimerEvent: {}
+[8.524045] (-) TimerEvent: {}
+[8.624370] (-) TimerEvent: {}
+[8.724730] (-) TimerEvent: {}
+[8.825071] (-) TimerEvent: {}
+[8.925407] (-) TimerEvent: {}
+[9.025752] (-) TimerEvent: {}
+[9.126105] (-) TimerEvent: {}
+[9.226451] (-) TimerEvent: {}
+[9.326782] (-) TimerEvent: {}
+[9.427153] (-) TimerEvent: {}
+[9.527535] (-) TimerEvent: {}
+[9.627855] (-) TimerEvent: {}
+[9.728286] (-) TimerEvent: {}
+[9.828853] (-) TimerEvent: {}
+[9.929223] (-) TimerEvent: {}
+[10.029590] (-) TimerEvent: {}
+[10.130124] (-) TimerEvent: {}
+[10.230496] (-) TimerEvent: {}
+[10.330844] (-) TimerEvent: {}
+[10.431213] (-) TimerEvent: {}
+[10.531606] (-) TimerEvent: {}
+[10.632031] (-) TimerEvent: {}
+[10.732381] (-) TimerEvent: {}
+[10.832732] (-) TimerEvent: {}
+[10.933056] (-) TimerEvent: {}
+[11.033434] (-) TimerEvent: {}
+[11.133892] (-) TimerEvent: {}
+[11.234285] (-) TimerEvent: {}
+[11.334800] (-) TimerEvent: {}
+[11.435255] (-) TimerEvent: {}
+[11.535708] (-) TimerEvent: {}
+[11.636129] (-) TimerEvent: {}
+[11.736589] (-) TimerEvent: {}
+[11.837021] (-) TimerEvent: {}
+[11.937469] (-) TimerEvent: {}
+[12.037916] (-) TimerEvent: {}
+[12.138312] (-) TimerEvent: {}
+[12.238653] (-) TimerEvent: {}
+[12.339010] (-) TimerEvent: {}
+[12.439411] (-) TimerEvent: {}
+[12.539855] (-) TimerEvent: {}
+[12.640221] (-) TimerEvent: {}
+[12.740579] (-) TimerEvent: {}
+[12.841044] (-) TimerEvent: {}
+[12.941484] (-) TimerEvent: {}
+[13.041928] (-) TimerEvent: {}
+[13.142356] (-) TimerEvent: {}
+[13.242797] (-) TimerEvent: {}
+[13.343289] (-) TimerEvent: {}
+[13.443828] (-) TimerEvent: {}
+[13.544250] (-) TimerEvent: {}
+[13.644675] (-) TimerEvent: {}
+[13.745121] (-) TimerEvent: {}
+[13.845599] (-) TimerEvent: {}
+[13.946045] (-) TimerEvent: {}
+[14.046584] (-) TimerEvent: {}
+[14.147124] (-) TimerEvent: {}
+[14.247672] (-) TimerEvent: {}
+[14.348074] (-) TimerEvent: {}
+[14.448533] (-) TimerEvent: {}
+[14.548893] (-) TimerEvent: {}
+[14.649263] (-) TimerEvent: {}
+[14.749707] (-) TimerEvent: {}
+[14.850159] (-) TimerEvent: {}
+[14.950534] (-) TimerEvent: {}
+[15.050915] (-) TimerEvent: {}
+[15.151388] (-) TimerEvent: {}
+[15.251807] (-) TimerEvent: {}
+[15.352270] (-) TimerEvent: {}
+[15.452729] (-) TimerEvent: {}
+[15.553175] (-) TimerEvent: {}
+[15.653553] (-) TimerEvent: {}
+[15.753984] (-) TimerEvent: {}
+[15.854433] (-) TimerEvent: {}
+[15.954859] (-) TimerEvent: {}
+[16.055291] (-) TimerEvent: {}
+[16.155636] (-) TimerEvent: {}
+[16.256066] (-) TimerEvent: {}
+[16.356431] (-) TimerEvent: {}
+[16.456906] (-) TimerEvent: {}
+[16.557336] (-) TimerEvent: {}
+[16.657764] (-) TimerEvent: {}
+[16.758183] (-) TimerEvent: {}
+[16.858627] (-) TimerEvent: {}
+[16.959001] (-) TimerEvent: {}
+[17.059438] (-) TimerEvent: {}
+[17.159848] (-) TimerEvent: {}
+[17.260203] (-) TimerEvent: {}
+[17.360558] (-) TimerEvent: {}
+[17.460994] (-) TimerEvent: {}
+[17.561362] (-) TimerEvent: {}
+[17.661735] (-) TimerEvent: {}
+[17.762080] (-) TimerEvent: {}
+[17.862504] (-) TimerEvent: {}
+[17.962926] (-) TimerEvent: {}
+[18.063285] (-) TimerEvent: {}
+[18.163708] (-) TimerEvent: {}
+[18.264137] (-) TimerEvent: {}
+[18.364483] (-) TimerEvent: {}
+[18.464833] (-) TimerEvent: {}
+[18.565211] (-) TimerEvent: {}
+[18.665638] (-) TimerEvent: {}
+[18.765984] (-) TimerEvent: {}
+[18.835437] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[18.838802] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.5.1\n'}
+[18.839142] (robot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[18.866137] (-) TimerEvent: {}
+[18.966395] (-) TimerEvent: {}
+[19.066787] (-) TimerEvent: {}
+[19.167234] (-) TimerEvent: {}
+[19.267712] (-) TimerEvent: {}
+[19.368097] (-) TimerEvent: {}
+[19.468490] (-) TimerEvent: {}
+[19.569078] (-) TimerEvent: {}
+[19.669582] (-) TimerEvent: {}
+[19.770056] (-) TimerEvent: {}
+[19.870435] (-) TimerEvent: {}
+[19.877836] (robot_description) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[19.882101] (robot_description) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[19.898581] (robot_description) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[19.967275] (robot_description) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[19.970512] (-) TimerEvent: {}
+[19.994083] (robot_description) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[20.004125] (robot_description) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[20.067146] (robot_description) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[20.069725] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.1\n'}
+[20.070047] (robot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[20.070624] (-) TimerEvent: {}
+[20.170932] (-) TimerEvent: {}
+[20.271309] (-) TimerEvent: {}
+[20.371688] (-) TimerEvent: {}
+[20.472102] (-) TimerEvent: {}
+[20.572624] (-) TimerEvent: {}
+[20.579418] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[20.586738] (robot_description) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[20.597717] (robot_description) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[20.668440] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.1\n'}
+[20.671427] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.17.1\n'}
+[20.671761] (robot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[20.672765] (-) TimerEvent: {}
+[20.694926] (robot_description) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[20.714995] (robot_description) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[20.716148] (robot_description) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[20.763156] (robot_description) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[20.765286] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.17.1\n'}
+[20.765663] (robot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[20.765871] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[20.769611] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.9.2\n'}
+[20.769922] (robot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[20.772843] (-) TimerEvent: {}
+[20.873220] (-) TimerEvent: {}
+[20.943614] (robot_description) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  \n'}
+[20.951337] (robot_description) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[20.961347] (robot_description) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[20.973305] (-) TimerEvent: {}
+[21.026461] (robot_description) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[21.031420] (robot_description) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[21.041946] (robot_description) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[21.073412] (-) TimerEvent: {}
+[21.108623] (robot_description) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[21.108876] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.17.1\n'}
+[21.109119] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[21.109446] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.1\n'}
+[21.111543] (robot_description) StdoutLine: {'line': b'-- Gazebo version: 11.15\n'}
+[21.173590] (-) TimerEvent: {}
+[21.274060] (-) TimerEvent: {}
+[21.357126] (robot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[21.374174] (-) TimerEvent: {}
+[21.412413] (robot_description) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[21.413843] (robot_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[21.414393] (robot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[21.414854] (robot_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[21.415920] (robot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[21.418745] (robot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[21.421963] (robot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[21.424239] (robot_description) StdoutLine: {'line': b'-- Build files have been written to: /root/Projeto_Final/build/robot_description\n'}
+[21.434637] (robot_description) CommandEnded: {'returncode': 0}
+[21.437695] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'build'}
+[21.437745] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/Projeto_Final/build/robot_description', '--', '-j16', '-l16'], 'cwd': '/root/Projeto_Final/build/robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('GIT_ASKPASS', '/root/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/root'), ('OLDPWD', '/root'), ('TERM_PROGRAM_VERSION', '1.100.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-bb9f8f9b-cef7-4faf-b041-7aa72490dbce.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('NAME', 'GustavoMorin'), ('WSL_INTEROP', '/run/WSL/986_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/foxy/share/turtlebot3_gazebo/models:/opt/ros/foxy/share/turtlebot3_gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Siemens/NX2212/CAPITALINTEGRATION/capitalnxremote/:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/Siemens/NX2312/CAPITALINTEGRATION/capitalnxremote/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/CODESYS/APInstaller/:/mnt/c/Users/gusta/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/gusta/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/gusta/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/gusta/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/gusta/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-89b1d7be49.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/Projeto_Final/build/robot_description'), ('TURTLEBOT3_MODEL', 'burguer'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[21.467273] (robot_description) CommandEnded: {'returncode': 0}
+[21.468083] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'install'}
+[21.468472] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/Projeto_Final/build/robot_description'], 'cwd': '/root/Projeto_Final/build/robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('GIT_ASKPASS', '/root/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/root'), ('OLDPWD', '/root'), ('TERM_PROGRAM_VERSION', '1.100.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-bb9f8f9b-cef7-4faf-b041-7aa72490dbce.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('NAME', 'GustavoMorin'), ('WSL_INTEROP', '/run/WSL/986_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/foxy/share/turtlebot3_gazebo/models:/opt/ros/foxy/share/turtlebot3_gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Siemens/NX2212/CAPITALINTEGRATION/capitalnxremote/:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/Siemens/NX2312/CAPITALINTEGRATION/capitalnxremote/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/CODESYS/APInstaller/:/mnt/c/Users/gusta/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/gusta/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/gusta/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/gusta/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/gusta/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-89b1d7be49.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/Projeto_Final/build/robot_description'), ('TURTLEBOT3_MODEL', 'burguer'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[21.474404] (-) TimerEvent: {}
+[21.475599] (robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.475692] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//urdf\n'}
+[21.476024] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//urdf/caster.xacro\n'}
+[21.476314] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//urdf/wheels.xacro\n'}
+[21.476396] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//urdf/differential_robot.xacro\n'}
+[21.476442] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//urdf/robot_base.xacro\n'}
+[21.476620] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//urdf/sensors.xacro\n'}
+[21.476676] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//launch\n'}
+[21.476798] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//launch/robot_simulation.py\n'}
+[21.476881] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//launch/navigate.launch.py\n'}
+[21.477003] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//launch/gazebo.launch.py\n'}
+[21.477091] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//launch/robot_description.launch.py\n'}
+[21.477183] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//launch/launch_file.launch.py\n'}
+[21.477279] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//rviz\n'}
+[21.477401] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//rviz/robot_vis.rviz\n'}
+[21.477591] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//world\n'}
+[21.477728] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//world/world.world\n'}
+[21.477873] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//world/house\n'}
+[21.477959] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//world/house/model.sdf\n'}
+[21.478351] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//world/house/model.config\n'}
+[21.478442] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/robot_description//world/mundogustavo.world\n'}
+[21.478950] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description\n'}
+[21.479081] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description\n'}
+[21.479241] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/robot_description/environment/ament_prefix_path.sh\n'}
+[21.479370] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv\n'}
+[21.479470] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/robot_description/environment/path.sh\n'}
+[21.480606] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/robot_description/environment/path.dsv\n'}
+[21.480761] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/robot_description/local_setup.bash\n'}
+[21.480875] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/robot_description/local_setup.sh\n'}
+[21.481107] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/robot_description/local_setup.zsh\n'}
+[21.481162] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/robot_description/local_setup.dsv\n'}
+[21.481363] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/robot_description/package.dsv\n'}
+[21.481409] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/ament_index/resource_index/packages/robot_description\n'}
+[21.481555] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake\n'}
+[21.481709] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake\n'}
+[21.481830] (robot_description) StdoutLine: {'line': b'-- Installing: /root/Projeto_Final/install/robot_description/share/robot_description/package.xml\n'}
+[21.483589] (robot_description) CommandEnded: {'returncode': 0}
+[21.494685] (robot_description) JobEnded: {'identifier': 'robot_description', 'rc': 0}
+[21.495482] (-) EventReactorShutdown: {}

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+
+    <!-- Macro para definir a caster ball -->
+    <xacro:macro name="caster_ball" params="name x y z">
+        <link name="${name}">
+            <visual>
+                <geometry>
+                    <sphere radius="0.1"/> <!-- Ajuste o raio conforme necessário -->
+                </geometry>
+                <material name="black"/>
+            </visual>
+            <collision>
+                <geometry>
+                    <sphere radius="0.1"/> <!-- Ajuste o raio conforme necessário -->
+                </geometry>
+            </collision>
+            <inertial>
+                <mass value="0.1"/> <!-- Ajuste a massa conforme necessário -->
+                <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001"/>
+            </inertial>
+        </link>
+
+        <!-- Joint para conectar a caster ball ao base_link -->
+        <joint name="${name}_joint" type="fixed">
+            <parent link="chassis"/>
+            <child link="${name}"/>
+            <origin xyz="${x} ${y} ${z}" rpy="0 0 0"/>
+        </joint>
+
+        <!-- Configuração do atrito para simulação no Gazebo -->
+        <gazebo reference="${name}">
+            <material>gazebo/black</material>
+            <mu1 value="0.001"/>
+            <mu2 value="0.001"/>
+        </gazebo>
+    </xacro:macro>
+
+</robot>

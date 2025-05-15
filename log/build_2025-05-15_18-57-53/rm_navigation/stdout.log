@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/rm_navigation/rm_navigation.egg-info
+writing ../../build/rm_navigation/rm_navigation.egg-info/PKG-INFO
+writing dependency_links to ../../build/rm_navigation/rm_navigation.egg-info/dependency_links.txt
+writing entry points to ../../build/rm_navigation/rm_navigation.egg-info/entry_points.txt
+writing requirements to ../../build/rm_navigation/rm_navigation.egg-info/requires.txt
+writing top-level names to ../../build/rm_navigation/rm_navigation.egg-info/top_level.txt
+writing manifest file '../../build/rm_navigation/rm_navigation.egg-info/SOURCES.txt'
+reading manifest file '../../build/rm_navigation/rm_navigation.egg-info/SOURCES.txt'
+writing manifest file '../../build/rm_navigation/rm_navigation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/Projeto_Final/build/rm_navigation/build
+creating /root/Projeto_Final/build/rm_navigation/build/lib
+creating /root/Projeto_Final/build/rm_navigation/build/lib/rm_navigation
+copying rm_navigation/__init__.py -> /root/Projeto_Final/build/rm_navigation/build/lib/rm_navigation
+running install
+running install_lib
+creating /root/Projeto_Final/install/rm_navigation/lib/python3.8/site-packages/rm_navigation
+copying /root/Projeto_Final/build/rm_navigation/build/lib/rm_navigation/__init__.py -> /root/Projeto_Final/install/rm_navigation/lib/python3.8/site-packages/rm_navigation
+byte-compiling /root/Projeto_Final/install/rm_navigation/lib/python3.8/site-packages/rm_navigation/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /root/Projeto_Final/install/rm_navigation/share/ament_index
+creating /root/Projeto_Final/install/rm_navigation/share/ament_index/resource_index
+creating /root/Projeto_Final/install/rm_navigation/share/ament_index/resource_index/packages
+copying resource/rm_navigation -> /root/Projeto_Final/install/rm_navigation/share/ament_index/resource_index/packages
+copying package.xml -> /root/Projeto_Final/install/rm_navigation/share/rm_navigation
+running install_egg_info
+Copying ../../build/rm_navigation/rm_navigation.egg-info to /root/Projeto_Final/install/rm_navigation/lib/python3.8/site-packages/rm_navigation-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/root/Projeto_Final/build/rm_navigation/install.log'

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<robot name="differential_robot" xmlns:xacro="http://ros.org/wiki/xacro">
+    
+    <!-- Incluir o arquivo das rodas -->
+    <xacro:include filename="$(find robot_description)/urdf/wheels.xacro"/>
+
+    <!-- Inclua o arquivo caster.xacro -->
+    <xacro:include filename="$(find robot_description)/urdf/caster.xacro"/>
+
+    <!-- Inclua o arquivo sensors.xacro -->
+    <xacro:include filename="$(find robot_description)/urdf/sensors.xacro"/>
+
+    <!-- Inclua o arquivo robot_base.xacro -->
+    <xacro:include filename="$(find robot_description)/urdf/robot_base.xacro"/>
+
+</robot>

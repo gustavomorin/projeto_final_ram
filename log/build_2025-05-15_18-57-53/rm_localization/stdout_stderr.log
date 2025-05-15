@@ -1,0 +1,51 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/Projeto_Final/build/rm_localization
+-- Install configuration: ""
+-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization//map
+-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization//map/meu_mapa.yaml
+-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization//map/meu_mapa.pgm
+-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization//launch
+-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization//launch/amcl.launch.py
+-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization//launch/ekf.launch.py
+-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization//config
+-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization//config/amcl_params.yaml
+-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization//config/ekf_config.yaml
+-- Installing: /root/Projeto_Final/install/rm_localization/share/ament_index/resource_index/package_run_dependencies/rm_localization
+-- Installing: /root/Projeto_Final/install/rm_localization/share/ament_index/resource_index/parent_prefix_path/rm_localization
+-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/environment/ament_prefix_path.sh
+-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/environment/ament_prefix_path.dsv
+-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/environment/path.sh
+-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/environment/path.dsv
+-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/local_setup.bash
+-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/local_setup.sh
+-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/local_setup.zsh
+-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/local_setup.dsv
+-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/package.dsv
+-- Installing: /root/Projeto_Final/install/rm_localization/share/ament_index/resource_index/packages/rm_localization
+-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/cmake/rm_localizationConfig.cmake
+-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/cmake/rm_localizationConfig-version.cmake
+-- Installing: /root/Projeto_Final/install/rm_localization/share/rm_localization/package.xml
