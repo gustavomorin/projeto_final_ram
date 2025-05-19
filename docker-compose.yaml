@@ -1,0 +1,40 @@
+version: "3.8"
+
+services:
+  base:
+    image: ros2_proj:latest  # imagem que você construiu com seu Dockerfile
+    stdin_open: true
+    tty: true
+    network_mode: host
+    ipc: host
+    privileged: true
+    volumes:
+      - ./src:/root/Projeto_Final/src  # garante volume com o src local (opcional)
+
+  localization:
+    extends: base
+    container_name: localization
+    command: >
+      bash -c "
+      source /opt/ros/foxy/setup.bash &&
+      source /root/Projeto_Final/install/setup.bash &&
+      ros2 launch rm_localization localization.launch.py"
+  
+  navigation:
+    extends: base
+    container_name: navigation
+    command: >
+      bash -c "
+      source /opt/ros/foxy/setup.bash &&
+      source /root/Projeto_Final/install/setup.bash &&
+      ros2 launch rm_navigation nav2.launch.py
+      params_file:=/root/Projeto_Final/src/rm_navigation/config/nav2_params.yaml"
+
+  waypoint_follower:
+    extends: base
+    container_name: waypoint_follower
+    command: >
+      bash -c "
+      source /opt/ros/foxy/setup.bash &&
+      source /root/Projeto_Final/install/setup.bash &&
+      ros2 launch waypoint_navigation_pkg waypoint.launch.py"

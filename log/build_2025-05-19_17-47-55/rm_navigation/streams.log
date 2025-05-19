@@ -1,0 +1,20 @@
+[0.655s] Invoking command in '/root/Projeto_Final/src/rm_navigation': PYTHONPATH=/root/Projeto_Final/build/rm_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/Projeto_Final/install/rm_navigation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rm_navigation build --build-base /root/Projeto_Final/build/rm_navigation/build install --record /root/Projeto_Final/build/rm_navigation/install.log --install-scripts $base/lib/rm_navigation --single-version-externally-managed install_data
+[0.806s] running egg_info
+[0.806s] writing ../../build/rm_navigation/rm_navigation.egg-info/PKG-INFO
+[0.806s] writing dependency_links to ../../build/rm_navigation/rm_navigation.egg-info/dependency_links.txt
+[0.807s] writing entry points to ../../build/rm_navigation/rm_navigation.egg-info/entry_points.txt
+[0.807s] writing requirements to ../../build/rm_navigation/rm_navigation.egg-info/requires.txt
+[0.807s] writing top-level names to ../../build/rm_navigation/rm_navigation.egg-info/top_level.txt
+[0.835s] reading manifest file '../../build/rm_navigation/rm_navigation.egg-info/SOURCES.txt'
+[0.836s] writing manifest file '../../build/rm_navigation/rm_navigation.egg-info/SOURCES.txt'
+[0.836s] running build
+[0.836s] running build_py
+[0.836s] running install
+[0.837s] running install_lib
+[0.839s] running install_data
+[0.839s] running install_egg_info
+[0.840s] removing '/root/Projeto_Final/install/rm_navigation/lib/python3.8/site-packages/rm_navigation-0.0.0-py3.8.egg-info' (and everything under it)
+[0.841s] Copying ../../build/rm_navigation/rm_navigation.egg-info to /root/Projeto_Final/install/rm_navigation/lib/python3.8/site-packages/rm_navigation-0.0.0-py3.8.egg-info
+[0.842s] running install_scripts
+[0.853s] writing list of installed files to '/root/Projeto_Final/build/rm_navigation/install.log'
+[0.868s] Invoked command in '/root/Projeto_Final/src/rm_navigation' returned '0': PYTHONPATH=/root/Projeto_Final/build/rm_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/Projeto_Final/install/rm_navigation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rm_navigation build --build-base /root/Projeto_Final/build/rm_navigation/build install --record /root/Projeto_Final/build/rm_navigation/install.log --install-scripts $base/lib/rm_navigation --single-version-externally-managed install_data

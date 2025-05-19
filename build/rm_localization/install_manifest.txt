@@ -2,6 +2,7 @@
 /root/Projeto_Final/install/rm_localization/share/rm_localization//map/meu_mapa.pgm
 /root/Projeto_Final/install/rm_localization/share/rm_localization//launch/amcl.launch.py
 /root/Projeto_Final/install/rm_localization/share/rm_localization//launch/ekf.launch.py
+/root/Projeto_Final/install/rm_localization/share/rm_localization//launch/localization.launch.py
 /root/Projeto_Final/install/rm_localization/share/rm_localization//config/amcl_params.yaml
 /root/Projeto_Final/install/rm_localization/share/rm_localization//config/ekf_config.yaml
 /root/Projeto_Final/install/rm_localization/share/ament_index/resource_index/package_run_dependencies/rm_localization
