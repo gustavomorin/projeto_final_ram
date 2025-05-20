@@ -1,0 +1,21 @@
+[0.869s] Invoking command in '/root/Projeto_Final/src/waypoint_navigation_pkg': CMAKE_PREFIX_PATH=/root/Projeto_Final/install/custom_interfaces:/root/Projeto_Final/install/robot_description:/root/Projeto_Final/install/rm_localization PYTHONPATH=/root/Projeto_Final/build/waypoint_navigation_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/Projeto_Final/install/waypoint_navigation_pkg/lib/python3.8/site-packages:/root/Projeto_Final/install/custom_interfaces/lib/python3.8/site-packages:/root/Projeto_Final/install/waypoint_navigation_pkg/lib/python3.8/site-packages:/root/Projeto_Final/install/rm_navigation/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waypoint_navigation_pkg build --build-base /root/Projeto_Final/build/waypoint_navigation_pkg/build install --record /root/Projeto_Final/build/waypoint_navigation_pkg/install.log --install-scripts $base/lib/waypoint_navigation_pkg --single-version-externally-managed install_data
+[1.062s] running egg_info
+[1.062s] writing ../../build/waypoint_navigation_pkg/waypoint_navigation_pkg.egg-info/PKG-INFO
+[1.062s] writing dependency_links to ../../build/waypoint_navigation_pkg/waypoint_navigation_pkg.egg-info/dependency_links.txt
+[1.063s] writing entry points to ../../build/waypoint_navigation_pkg/waypoint_navigation_pkg.egg-info/entry_points.txt
+[1.063s] writing requirements to ../../build/waypoint_navigation_pkg/waypoint_navigation_pkg.egg-info/requires.txt
+[1.063s] writing top-level names to ../../build/waypoint_navigation_pkg/waypoint_navigation_pkg.egg-info/top_level.txt
+[1.094s] reading manifest file '../../build/waypoint_navigation_pkg/waypoint_navigation_pkg.egg-info/SOURCES.txt'
+[1.095s] writing manifest file '../../build/waypoint_navigation_pkg/waypoint_navigation_pkg.egg-info/SOURCES.txt'
+[1.095s] running build
+[1.095s] running build_py
+[1.095s] running install
+[1.096s] running install_lib
+[1.098s] running install_data
+[1.098s] running install_egg_info
+[1.100s] removing '/root/Projeto_Final/install/waypoint_navigation_pkg/lib/python3.8/site-packages/waypoint_navigation_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.100s] Copying ../../build/waypoint_navigation_pkg/waypoint_navigation_pkg.egg-info to /root/Projeto_Final/install/waypoint_navigation_pkg/lib/python3.8/site-packages/waypoint_navigation_pkg-0.0.0-py3.8.egg-info
+[1.101s] running install_scripts
+[1.119s] Installing waypoint_navigator script to /root/Projeto_Final/install/waypoint_navigation_pkg/lib/waypoint_navigation_pkg
+[1.119s] writing list of installed files to '/root/Projeto_Final/build/waypoint_navigation_pkg/install.log'
+[1.151s] Invoked command in '/root/Projeto_Final/src/waypoint_navigation_pkg' returned '0': CMAKE_PREFIX_PATH=/root/Projeto_Final/install/custom_interfaces:/root/Projeto_Final/install/robot_description:/root/Projeto_Final/install/rm_localization PYTHONPATH=/root/Projeto_Final/build/waypoint_navigation_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/Projeto_Final/install/waypoint_navigation_pkg/lib/python3.8/site-packages:/root/Projeto_Final/install/custom_interfaces/lib/python3.8/site-packages:/root/Projeto_Final/install/waypoint_navigation_pkg/lib/python3.8/site-packages:/root/Projeto_Final/install/rm_navigation/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waypoint_navigation_pkg build --build-base /root/Projeto_Final/build/waypoint_navigation_pkg/build install --record /root/Projeto_Final/build/waypoint_navigation_pkg/install.log --install-scripts $base/lib/waypoint_navigation_pkg --single-version-externally-managed install_data
