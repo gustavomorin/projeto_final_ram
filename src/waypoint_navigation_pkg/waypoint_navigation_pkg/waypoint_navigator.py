@@ -11,9 +11,9 @@ class WaypointNavigator(Node):
         super().__init__('waypoint_navigator')
 
         self.waypoints = [
-            [1.0, 0.0, 0.0],
-            [1.0, 1.0, 1.57],
-            [0.0, 1.0, 3.14]
+            [6.6349, 0.157894, 0.0],
+            [6.6349, 5.77467, 3.14],
+            [1.0, 1.0, 1.57]
         ]
 
         self.client = ActionClient(self, NavigateToPose, 'navigate_to_pose')

@@ -1,4 +1,0 @@
-srv/StartMission.idl
-srv/StartMission.srv
-srv/StartMission_Request.msg
-srv/StartMission_Response.msg
